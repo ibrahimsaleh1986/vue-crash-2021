@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false, // to avoid this error "Parameter 'xxx' implicitly has an 'any' type"
     "target": "esnext",
     "module": "esnext",
     "strict": true,
